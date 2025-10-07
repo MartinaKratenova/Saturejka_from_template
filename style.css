@@ -33,13 +33,18 @@ h1,
 .intro,
 header {
   text-align: center;
+  justify-self: center;
   margin-bottom: 20px;
 }
 
-.content {
-  align-items: center;
-  justify-self: center;
-  margin: 0 auto;
+.home_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.home_content p {
+  padding: 5px;
 }
 
 .menu {
