@@ -65,3 +65,15 @@ header {
   width: 32%;
 
 }
+
+.dish {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.dish img {
+  width: 48%;
+  border-radius: 10px;
+}
