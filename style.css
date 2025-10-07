@@ -19,3 +19,42 @@ h1,
 h2 {
   font-family: 'Playfair Display', serif;
 }
+
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  align-items: center;
+}
+
+.menu {
+  background-color: white;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+
+  justify-self: auto;
+}
+
+h1,
+.intro {
+  text-align: center;
+}
+
+
+.pictures {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pictures img {
+  width: 32%;
+
+}
